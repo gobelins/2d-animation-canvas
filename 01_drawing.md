@@ -465,7 +465,7 @@ ctx.fillRect(0, 0, 400, 400)
 
 ctx.strokeStyle = '#ccc'
 ctx.moveTo(0, 0)
-const mouse = {x: 0, y:0}
+const mouse = {x: 0, y: 0}
 
 function gameLoop() {
   ctx.lineTo(mouse.x, mouse.y)
@@ -533,3 +533,9 @@ function draw() {
 </template>
 
 -->
+
+---
+
+## full screen & pixel ratio
+
+While experimenting, don't use full screen nor pixel ratio. Leave those calculations when you're going to prod
