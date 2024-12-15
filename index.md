@@ -1,3 +1,3 @@
-- [01_drawing](01_drawing)
-- [02_animation](02_animation)
-- [03_maths](03_maths)
+- [01_drawing](01_drawing.md)
+- [02_animation](02_animation.md)
+- [03_maths](03_maths.md)

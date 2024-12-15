@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": "PORT=8585 marp -s ./",
+        "export": "marp 01_drawing.md -o 01_drawing.pdf",
+        "watch": "PORT=8585 marp -w 01_drawing.md",
+        "build": "rm -rf dist && mkdir -p dist/assets/ && cp -r assets dist/ && marp --input-dir=./ --output=./dist",
+        "publish": "surge dist --domain 2d-animation-canvas.surge.sh"
+    },
+    "devDependencies": {
+        "@marp-team/marp-cli": "4.0.3"
+    },
+    "dependencies": {},
+    "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

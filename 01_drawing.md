@@ -371,7 +371,16 @@ ctx.stroke(grid)
 ### use text
 
 ![bg right fit](./assets/canvas-text.gif)
-https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
+
+console log can become too verbose, especially in animation.
+Write directly on your canvas while debugging.
+
+```ts
+ctx.font = '10px monospace'
+ctx.fillText(`AB: ${segments[0].length}`, 10, 20)
+```
+
+([doc](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D))
 
 ---
 
