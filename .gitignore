@@ -1,0 +1,6 @@
+.DS_Store
+slides
+0*.html
+
+/dist
+/node_modules
